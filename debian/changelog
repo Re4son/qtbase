@@ -1,10 +1,13 @@
-qtbase-opensource-src (5.11.2+dfsg-5) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.11.2+kaliarm64-6) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add a patch to use qstrncpy instead of strlcpy on GNU/kFreeBSD
     (kfreebsd_qstrncpy.diff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Oct 2018 20:18:07 +0300
+  [ Carsten Boeving ]
+  * Add es2 support for arm64
+
+ -- Carsten Boeving <carsten.boeving@whitedome.com.au>  Sat, 03 Nov 2018 11:20:02 +1100
 
 qtbase-opensource-src (5.11.2+dfsg-4) unstable; urgency=medium
 
